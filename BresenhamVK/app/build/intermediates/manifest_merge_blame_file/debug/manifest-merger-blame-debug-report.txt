@@ -25,8 +25,8 @@
 18        android:extractNativeLibs="false"
 19        android:icon="@mipmap/ic_launcher"
 19-->C:\Users\Administrator\AndroidStudioProjects\BresenhamVK\app\src\main\AndroidManifest.xml:5:7-41
-20        android:label="@string/hellovk_activity"
-20-->C:\Users\Administrator\AndroidStudioProjects\BresenhamVK\app\src\main\AndroidManifest.xml:6:7-47
+20        android:label="JuddBresenham"
+20-->C:\Users\Administrator\AndroidStudioProjects\BresenhamVK\app\src\main\AndroidManifest.xml:6:7-36
 21        android:testOnly="true" >
 22        <activity
 22-->C:\Users\Administrator\AndroidStudioProjects\BresenhamVK\app\src\main\AndroidManifest.xml:7:5-16:16

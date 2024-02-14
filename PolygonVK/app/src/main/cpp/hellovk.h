@@ -579,7 +579,7 @@ void HelloVK::recordCommandBuffer(VkCommandBuffer commandBuffer,
   if (grey > 1.0f) {
     grey = 0.0f;
   }
-  VkClearValue clearColor = {{{grey, grey, grey, 1.0f}}};
+  VkClearValue clearColor = {{{1, 1, 1, 1.0f}}};
 
   renderPassInfo.clearValueCount = 1;
   renderPassInfo.pClearValues = &clearColor;

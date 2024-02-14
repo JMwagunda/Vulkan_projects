@@ -1,4 +1,4 @@
-#Wed Feb 14 12:22:58 EAT 2024
+#Wed Feb 14 19:18:21 EAT 2024
 base.0=C\:\\Users\\Administrator\\AndroidStudioProjects\\RectangleVK\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\Administrator\\AndroidStudioProjects\\RectangleVK\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\Administrator\\AndroidStudioProjects\\RectangleVK\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex

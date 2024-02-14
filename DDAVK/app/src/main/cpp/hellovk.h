@@ -579,7 +579,7 @@ void HelloVK::recordCommandBuffer(VkCommandBuffer commandBuffer,
   if (grey > 1.0f) {
     grey = 0.0f;
   }
-  VkClearValue clearColor = {{{grey, grey, grey, 1.0f}}};
+  VkClearValue clearColor = {{{1, 1, 1, 1.0f}}};
 
   renderPassInfo.clearValueCount = 1;
   renderPassInfo.pClearValues = &clearColor;
@@ -592,8 +592,8 @@ void HelloVK::recordCommandBuffer(VkCommandBuffer commandBuffer,
                           0, nullptr);
 
   vkCmdDraw(commandBuffer, 2, 1, 0, 0);
-  vkCmdDraw(commandBuffer, 2, 1, 2, 0);
-  vkCmdDraw(commandBuffer, 8, 1, 4, 0);
+  vkCmdDraw(commandBuffer, 2, 1, 2, 1);
+  vkCmdDraw(commandBuffer, 8, 1, 4, 2);
 
   vkCmdEndRenderPass(commandBuffer);
   VK_CHECK(vkEndCommandBuffer(commandBuffer));

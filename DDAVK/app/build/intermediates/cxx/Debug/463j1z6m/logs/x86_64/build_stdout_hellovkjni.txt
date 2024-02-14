@@ -1,0 +1,3 @@
+ninja: Entering directory `C:\Users\Administrator\AndroidStudioProjects\DDAVK\app\.cxx\Debug\463j1z6m\x86_64'
+[1/2] Building CXX object CMakeFiles/hellovkjni.dir/vk_main.cpp.o
+[2/2] Linking CXX shared library C:\Users\Administrator\AndroidStudioProjects\DDAVK\app\build\intermediates\cxx\Debug\463j1z6m\obj\x86_64\libhellovkjni.so
